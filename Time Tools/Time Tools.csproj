@@ -5,14 +5,14 @@
     <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>ZNI</RootNamespace>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <ApplicationIcon>Resources\TimeTools.ico</ApplicationIcon>
     <PackageIcon>tticon.512.png</PackageIcon>
     <StartupObject>ZNI.Program</StartupObject>
     <AssemblyName>znitime</AssemblyName>
+    <ApplicationIcon>Resources\AppIcon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="Resources\TimeTools.ico" />
+    <Content Include="Resources\AppIcon.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\libzni\LibZNI.csproj" />
+    <ProjectReference Include="..\libzni\LibZNI.csproj" />
   </ItemGroup>
 
   <ItemGroup>
