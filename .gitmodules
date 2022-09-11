@@ -1,0 +1,3 @@
+[submodule "libzni"]
+	path = libzni
+	url = git@github.com:/zontreck/libzni

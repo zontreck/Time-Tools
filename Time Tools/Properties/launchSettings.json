@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Time Tools": {
+      "commandName": "Project",
+      "commandLineArgs": "-s -t 3m 8s"
+    }
+  }
+}
